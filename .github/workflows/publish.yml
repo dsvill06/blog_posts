@@ -35,11 +35,21 @@ jobs:
           # Export Obsidian files to temporary location
           ./obsidian-export_Linux-x86_64.bin ./temp_md/publish temp_processed
           
-          # Ensure target directory exists
+          # Ensure target directories exist
           mkdir -p temp_blog/data/blog
+          mkdir -p temp_blog/public/static/attachments
           
-          # Copy processed files to Next.js repo
+          # Copy processed markdown files to blog directory
           cp -r temp_processed/* temp_blog/data/blog/
+          
+          # Copy attachments to public/static directory
+          cp -r temp_md/publish/attachments/* temp_blog/public/static/attachments/
+          
+          # Update image links in markdown files
+          find temp_blog/data/blog -type f -name "*.md" -exec sed -i 's/\[\[/\[\[\/statics\//g' {} +
+          
+          # Rename all .md files to .mdx
+          find temp_blog/data/blog -name "*.md" -exec sh -c 'mv "$1" "${1%.md}.mdx"' _ {} \;
           
           cd temp_blog
           
@@ -49,5 +59,5 @@ jobs:
           
           # Commit and push changes
           git add .
-          git commit -m "Update blog content from Obsidian vault"
+          git commit -m "Update blog content and attachments"
           git push origin main
