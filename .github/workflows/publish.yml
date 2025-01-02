@@ -29,6 +29,9 @@ jobs:
       
       - name: Process and Copy Files
         run: |
+          # Create temporary directory
+          mkdir temp_processed
+          
           # Export Obsidian files to temporary location
           ./obsidian-export_Linux-x86_64.bin ./temp_md/publish temp_processed
           
