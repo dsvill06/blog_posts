@@ -20,7 +20,7 @@ jobs:
         with:
           path: temp_blog
           repository: "dsvill06/blog"
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{secrets.PAT_TOKEN}}
       
       - name: Install obsidian-export
         run: |
