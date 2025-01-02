@@ -1,6 +1,6 @@
 name: Publish Markdown Files
 env:
-  BLOG_REPO: your-username/your-nextjs-repo
+  BLOG_REPO: dsvill06/blog
   PUBLISH_DIR: publish
 on:
   workflow_dispatch:
