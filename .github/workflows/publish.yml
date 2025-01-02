@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           path: temp_blog
-          repository: "https://github.com/dsvill06/blog"
+          repository: "dsvill06/blog"
           token: ${{secrets.PAT_TOKEN}}
       
       - name: Install obsidian-export
