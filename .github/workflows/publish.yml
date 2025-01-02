@@ -30,7 +30,7 @@ jobs:
       - name: Process and Copy Files
         run: |
           # Export Obsidian files to temporary location
-          ./obsidian-export_Linux-x86_64.bin ./temp_md/${{ env.PUBLISH_DIR }} temp_processed
+          ./obsidian-export_Linux-x86_64.bin ./temp_md/data/blog/temp_processed
           
           # Ensure target directory exists
           mkdir -p temp_blog/data/blog
