@@ -46,7 +46,7 @@ jobs:
           cp -r temp_md/publish/attachments/* temp_blog/public/static/attachments/
           
           # Update image links in markdown files
-          find temp_blog/data/blog -type f -name "*.md" -exec sed -i 's/\[\[/\[\[\/statics\//g' {} +
+          find temp_blog/data/blog -type f -name "*.md" -exec sed -i 's/\[\[attachments\//\[\[\/static\/attachments\//g' {} +
           
           # Rename all .md files to .mdx
           find temp_blog/data/blog -name "*.md" -exec sh -c 'mv "$1" "${1%.md}.mdx"' _ {} \;
