@@ -48,3 +48,5 @@ This course applies the entrepreneurial process through hands-on activities and 
 ![[Screenshot 2025-01-05 at 3.01.07 PM.png]]
 ![[Screenshot 2025-01-05 at 3.01.07 PM.png]]![[Screenshot 2025-01-05 at 3.01.07 PM.png]]![[Screenshot 2025-01-05 at 3.01.07 PM.png]]
 
+
+![[Screenshot 2025-01-05 at 3.01.07 PM.png]]![[Screenshot 2025-01-05 at 3.01.07 PM.png]]![[Screenshot 2025-01-05 at 3.01.07 PM.png]]
