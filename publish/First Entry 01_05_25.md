@@ -5,7 +5,7 @@ tags:
   - Engineering
   - Computer_Engineering
   - Courses
-draft: true
+draftp: true
 summary: Listing out the wants and goals I have for this blog as well as what i'm learning
 ---
 # Welcome
@@ -42,3 +42,8 @@ This course delves into computer organization and design, focusing on the concep
 ### Description
 This course applies the entrepreneurial process through hands-on activities and guidance from experienced entrepreneurs. Students work in teams to create new ventures, gaining practical experience in entrepreneurship.
 #### Thoughts Before
+
+
+
+![[Screenshot 2025-01-05 at 3.01.07 PM.png]]![[Screenshot 2025-01-05 at 3.01.07 PM.png]]![[Screenshot 2025-01-05 at 3.01.07 PM.png]]
+
